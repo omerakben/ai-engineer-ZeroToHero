@@ -10,7 +10,7 @@ import { Search, ExternalLink, Clock, BarChart } from "lucide-react"
 import coursesData from "@/data/courses.json"
 import type { Course } from "@/lib/types"
 
-const courses: Course[] = coursesData
+const courses = coursesData as Course[]
 
 export default function CurriculumPage() {
   const [searchQuery, setSearchQuery] = useState("")

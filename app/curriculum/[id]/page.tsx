@@ -9,7 +9,7 @@ import coursesData from "@/data/courses.json"
 import type { Course } from "@/lib/types"
 import { useEffect, useState } from "react"
 
-const courses: Course[] = coursesData
+const courses = coursesData as Course[]
 
 export default function CourseDetailPage() {
   const params = useParams()
