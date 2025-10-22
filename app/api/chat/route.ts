@@ -30,7 +30,7 @@ export async function POST(req: NextRequest) {
     // Add course context
     const courseContext = `\n\n## Available Courses:\n${JSON.stringify(coursesData, null, 2)}`
 
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" })
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" })
 
     // Format chat history
     const chatHistory = messages.slice(0, -1).map((msg: any) => ({
