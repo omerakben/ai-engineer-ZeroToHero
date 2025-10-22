@@ -149,7 +149,7 @@ export default function ProgressPage() {
       <Card className="mb-8">
         <CardHeader>
           <CardTitle>Progress by Category</CardTitle>
-          <CardDescription>See how you're progressing in different AI/ML domains</CardDescription>
+          <CardDe<CardDescription>See how you&apos;re progressing in different AI/ML domains</CardDescription>scripti<CardDescription>See how you&apos;re progressing in different AI/ML domains</CardDescription>oSee how you&apos;re progressing in different AI/ML domains&apos;>See how &apos;ou're progressing in different AI/ML domains</CardDescription>
         </CardHeader>
         <CardContent>
           <div className="space-y-4">
