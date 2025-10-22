@@ -10,7 +10,7 @@ import { CheckCircle2, Clock, BookmarkPlus, TrendingUp, Award, Target } from "lu
 import coursesData from "@/data/courses.json"
 import type { Course, ProgressData } from "@/lib/types"
 
-const courses: Course[] = coursesData
+const courses = coursesData as Course[]
 
 export default function ProgressPage() {
   const [progress, setProgress] = useState<ProgressData>({
@@ -149,7 +149,7 @@ export default function ProgressPage() {
       <Card className="mb-8">
         <CardHeader>
           <CardTitle>Progress by Category</CardTitle>
-          <CardDe<CardDescription>See how you&apos;re progressing in different AI/ML domains</CardDescription>scripti<CardDescription>See how you&apos;re progressing in different AI/ML domains</CardDescription>oSee how you&apos;re progressing in different AI/ML domains&apos;>See how &apos;ou're progressing in different AI/ML domains</CardDescription>
+          <CardDescription>See how you&apos;re progressing in different AI/ML domains</CardDescription>
         </CardHeader>
         <CardContent>
           <div className="space-y-4">
